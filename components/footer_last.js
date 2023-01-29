@@ -4,8 +4,6 @@ import Script from "next/script"
 import styles from "../styles/footer.module.css";
 import Logo from "./Logo";
 import Image from "next/image";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/fontawesome-free-solid'
 import { SocialIcon } from 'react-social-icons';
 import Location from "./location"
 export const Last_element = () => {
