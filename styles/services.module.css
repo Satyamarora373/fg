@@ -1,0 +1,16 @@
+.main h2{
+  width: 90vw;
+  height: auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vw;
+  line-height: 137.5%;
+  /* or 88px */
+  
+  text-align: center;
+  
+  color: #000000;
+  }

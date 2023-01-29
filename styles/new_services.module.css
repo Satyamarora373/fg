@@ -1,0 +1,153 @@
+.main{
+  background-color: #FFFFFF;
+  font-family: 'Roboto' !important;
+}
+.main h2{
+  font-size: 4vw;
+  text-align: center;
+font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 7vw;
+}
+.main div div{
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.main div div h2{
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+/* .main div div p {
+  padding-left: 1vw;
+  font-size: 2vw;
+  text-align: left;
+font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  color: #666666;
+} */
+.main div button{
+  color: #FFFFFF;
+  background-color: #0057FF;
+  margin-left: 40vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  font-size: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+}
+.main div button:hover {
+  color: #FFFFFF;
+  background-color: #666666;
+  margin-left: 40vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  font-size: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+.texter{
+  flex: 40%;
+}
+.texter h2{
+  font-size: 3vw;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+}
+.texter p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5vw;
+padding-left: 2vw;
+padding-right: 2vw;
+color:#666666;
+
+}
+.imager{
+  flex: 50%;
+}
+.heading{
+  font-size: 3.5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+}
+/* @media only screen and (max-width: 768px) {
+
+  .main h2{
+    font-size: 6vw;
+    text-align: center;
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+  }
+  .main div div{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+  .main div div h2{
+    font-size: 4.5vw;
+    text-align: center;
+    font-family: 'Jost';
+      font-style: normal;
+      font-weight: 700;
+  }
+  .main div div p {
+    padding-left: 1vw;
+    font-size: 3.4vw;
+    text-align: left;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+  }
+  .main div button{
+    color: #FFFFFF;
+    background-color: #0057FF;
+    margin-left: 40vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 4vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-family: 'Jost';
+      font-style: normal;
+      font-weight: 500;
+  }
+  .main div button:hover {
+    color: #FFFFFF;
+    background-color: #666666;
+    margin-left: 40vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 4vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+  .texter{
+    flex: 55%;
+  }
+  .imager{
+    flex: 35%;
+  }
+} */

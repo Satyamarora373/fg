@@ -1,0 +1,165 @@
+.main{
+    padding-top: 4vw;
+    background-color:  #FFFFFF;
+    padding-left: 4vw;
+    padding-right: 2vw;
+
+}
+.main div div {
+    flex: 30;
+}
+.main .button1{
+    background-color: #0057FF;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    /* margin-left: 10vw; */
+    margin-top: 5vw;
+}
+.main .button1:hover{
+    background-color: #666666;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    /* margin-left: 10vw;
+    margin-top: 5vw; */
+}
+.main .button1 p{
+    font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2vw;   
+        color: #FFFFFF;
+}
+.main .button2{
+    background-color: #FFFFFF;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+.main .button2:hover{
+    background-color: #666666;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+.main .button2 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    color: #000000;
+}
+.main div div h1{
+    /* padding-left: 5vw; */
+    font-size: 4vw;
+    font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        color: #000000;
+}
+/* .main div div p {
+    padding-left: 5vw;
+    font-size: 2vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+} */
+.heading{
+    padding-left: 3vw;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    background-color: #FFFFFF;
+    padding-bottom: 0vw;
+}
+.texter{
+    text-align: fill;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    background-color: #FFFFFF;
+    font-size: 1.5vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+/* @media only screen and (max-width: 768px) {
+
+    
+    .main div div {
+            flex: 50;
+        }
+    
+        .main .button1 {
+            background-color: #0057FF;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            margin-left: 3vw;
+            margin-top: 5vw;
+        }
+    
+        .main .button1 p {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2vw;
+            color: #FFFFFF;
+        }
+    
+        .main .button2 {
+            background-color: #FFFFFF;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            margin-left: 3vw;
+            margin-top: 5vw;
+        }
+    
+        .main .button2 p {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2vw;
+            color: #000000;
+        }
+    
+        .main div div h1 {
+            padding-left: 5vw;
+            font-size: 6vw;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 600;
+            color: #000000;
+        }
+        .heading{
+            font-family: 'Jost';
+            font-style: normal;
+            text-align: center;
+            font-size: 4vw;
+            background-color: #FFFFFF;
+        }
+        .texter{
+            text-align: center;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            background-color: #FFFFFF;
+            font-size: 2.5vw;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+        }
+        .main .button2:hover{
+            background-color: #666666;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            margin-left: 3vw;
+            margin-top: 5vw;
+        }
+        .main .button1:hover{
+            background-color: #666666;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            margin-left: 3vw;
+            margin-top: 5vw;
+        }
+} */

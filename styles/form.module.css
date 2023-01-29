@@ -1,0 +1,357 @@
+.main {
+  font-size: 1.5vw;
+  user-select: none;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: #FFFFFF;
+}
+.main h6 {
+  background-color: rgba(0, 56, 207, 0.43);
+  color: rgba(0, 56, 207, 0.43);
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  margin-left: 10vw;
+  font-size: 0.5vw;
+}
+.former{
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputs{
+  flex: 40;
+}
+.images{
+  flex: 60;
+}
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.row2{
+  display: flex;
+  flex-wrap: wrap;
+}
+.inp11{
+  flex: 50;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+.inp12 {
+  flex: 50;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}.inp21 {
+  flex: 50;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}.inp22 {
+  flex: 50;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+.inp11 input {
+  background-color: #FFFFFF;
+  color: black;
+  border-bottom: 2vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: black;
+}
+.inp12 input {
+  background-color: #FFFFFF;
+    color: black;
+    border-bottom: 2vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+.inp21 input {
+  background-color: #FFFFFF;
+  color: black;
+    border-bottom: 2vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+.inp22 input {
+  background-color: #FFFFFF;
+  color: black;
+    border-bottom: 2vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+.dropdown select{
+  border: 0;
+  background-color: #FFFFFF;
+  color: black;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: ruby;
+}
+.dropdown hr{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.dropdown label{
+  padding-left: 5vw;
+}
+.resume{
+  /* background-color: #ffffff ; */
+    padding-left: 5vw;
+    margin-top: 0vw;
+}
+.resume input{
+  color: white;
+  background-color: #FFFFFF;
+  padding-left: 10vw;
+  font-size: 0vw;
+  padding-right: 10vw;
+}
+.resume p{
+  color: white !important;
+  background-color: #001870 !important;
+  margin-left: 30vw;
+  margin-top: -2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-right: 7vw;
+  border-radius: 2px;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+.message{
+  padding-left: 5vw;
+  padding-top: 3vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.m1{
+  flex: 90;
+}
+.m2{
+  padding-top: 2vw;
+  flex: 10;
+}
+.message input{
+  padding-top: 3vw;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-bottom: 2vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 40vw;
+}
+.final label{
+  color: white;
+  background-color: #001870;
+  margin-left: 22vw;
+  font-size: 2vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .main {
+      font-size: 1.5vw;
+      user-select: none;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      background-color: #FFFFFF;
+    }
+  
+    .main h6 {
+      background-color: rgba(0, 56, 207, 0.43);
+      color: rgba(0, 56, 207, 0.43);
+      width: 80%;
+      text-align: center;
+      align-items: center;
+      margin-left: 10vw;
+      font-size: 0.5vw;
+    }
+  
+    .former {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .inputs {
+      flex: 40;
+    }
+  
+    .images {
+      flex: 60;
+    }
+  
+    .row1 {
+            font-size: 3vw;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .row2 {
+            font-size: 3vw;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .inp11 {
+
+      flex: 50;
+      margin-left: 4vw;
+      margin-right: 4vw;
+    }
+  
+    .inp12 {
+      flex: 50;
+      margin-left: 4vw;
+      margin-right: 4vw;
+    }
+  
+    .inp21 {
+      flex: 50;
+      margin-left: 4vw;
+      margin-right: 4vw;
+    }
+  
+    .inp22 {
+      flex: 50;
+      margin-left: 4vw;
+      margin-right: 4vw;
+    }
+  
+    .inp11 input {
+      background-color: #FFFFFF;
+      color: black;
+      border-bottom: 2vw;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: black;
+    }
+  
+    .inp12 input {
+      background-color: #FFFFFF;
+      color: black;
+      border-bottom: 2vw;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: black;
+    }
+  
+    .inp21 input {
+      background-color: #FFFFFF;
+      color: black;
+      border-bottom: 2vw;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: black;
+    }
+  
+    .inp22 input {
+      background-color: #FFFFFF;
+      color: black;
+      border-bottom: 2vw;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: black;
+    }
+    .dropdown{
+      font-size: 3vw;
+    }
+    .dropdown select {
+      border: 0;
+      background-color: #FFFFFF;
+      color: black;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      display: ruby;
+    }
+  
+    .dropdown hr {
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }
+  
+    .dropdown label {
+      padding-left: 5vw;
+    }
+  
+    .resume {
+      font-size: 3vw;
+
+      padding-left: 5vw;
+      margin-top: 0vw;
+    }
+  
+    .resume input {
+      color: white;
+      background-color: #FFFFFF;
+      padding-left: 10vw;
+      font-size: 0vw;
+      padding-right: 10vw;
+    }
+  
+    .resume p {
+      color: white !important;
+      background-color: #001870 !important;
+      margin-left: 30vw;
+      margin-top: -2vw;
+      padding-left: 1vw;
+      padding-right: 1vw;
+      margin-right: 7vw;
+      border-radius: 2px;
+      padding-top: 0.5vw;
+      padding-bottom: 0.5vw;
+    }
+  
+    .message {
+      font-size: 3vw;
+      padding-left: 5vw;
+      padding-top: 3vw;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .m1 {
+      flex: 90;
+    }
+  
+    .m2 {
+      padding-top: 2vw;
+      flex: 10;
+    }
+  
+    .message input {
+      padding-top: 3vw;
+      color: #000000;
+      background-color: #FFFFFF;
+      border-bottom: 2vw;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 40vw;
+    }
+  
+    .final label {
+      color: white;
+      background-color: #001870;
+      margin-left: 22vw;
+      font-size: 2vw;
+      padding-top: 0.5vw;
+      padding-bottom: 0.5vw;
+      padding-left: 1vw;
+      padding-right: 1vw;
+    }
+} */

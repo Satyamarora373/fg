@@ -1,0 +1,111 @@
+.main{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  user-select: none;
+  pointer-events: none;
+}
+.main h6 {
+  background-color: rgba(0, 56, 207, 0.43);
+  color: rgba(0, 56, 207, 0.43);
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  margin-left: 10vw;
+  font-size: 0.5vw;
+}
+
+.topper {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  font-size: 4vw;
+  color: #000000;
+}
+
+.topper span {
+  color: #A7BFFF;
+}
+.para1{
+  position: relative;
+}
+
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.im11{
+  flex: 35;
+  width: auto;
+  margin-right: -1%;
+}
+.im12{
+  flex: 30;
+  margin-bottom: 5%;
+}
+.im13{
+  flex: 35;
+  margin-left: -1%;
+}
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -5%;
+}
+
+.im21 {
+  flex: 30;
+  width: auto;
+}
+
+.im22 {
+  flex: 35;
+  margin-top: 5%;
+  margin-left: -3%;
+  margin-right: -3%;
+}
+
+.im23 {
+  flex: 30;
+}
+
+
+/* @media only screen and (max-width: 768px) {
+
+
+    .im11 {
+      flex: 100%;
+      flex: 50;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-top: 2%;
+    }
+    .im12 {
+            flex: 100%;
+      padding-left: 10%;
+        padding-right: 10%; margin-top: 2%;
+    }
+    .im13 {
+            flex: 100%;
+      padding-left: 10%;
+        padding-right: 10%; margin-top: 2%;
+    }
+    .row2{
+      margin-top: 0%;
+    }
+    .im21 {
+            flex: 100%;
+      padding-left: 10%;
+        padding-right: 10%; margin-top: 2%;
+    }
+    .im22 {
+            flex: 100%;
+      padding-left: 10%;
+        padding-right: 10%; margin-top: 2%;
+    }
+    .im23 {
+            flex: 100%;
+      padding-left: 10%;
+        padding-right: 10%; margin-top: 2%;
+    }
+} */

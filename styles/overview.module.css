@@ -1,0 +1,70 @@
+.main{
+  padding-bottom: 3vw;
+}
+.main button{
+  background-color: rgba(125, 159, 255, 0.37);
+  color: #000000;
+  margin-left: 8vw;
+  font-size: 3vw;
+  margin-top: 3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  margin-right: 76vw;
+  border-radius: 2%;
+}
+.main p{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  color: rgba(60, 60, 60, 0.56)
+}
+.main h1{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-size: 4vw;
+  color: #A7BFFF;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Jost';
+}
+
+/* @media only screen and (max-width: 768px) {
+  .main button {
+      background-color: rgba(125, 159, 255, 0.37);
+      color: #000000;
+      margin-left: 8vw;
+      font-size: 4vw;
+      margin-top: 3vw;
+      padding-left: 1vw;
+      padding-right: 1vw;
+      padding-top: 0.5vw;
+      padding-bottom: 0.5vw;
+      margin-right: 76vw;
+      border-radius: 2%;
+    }
+  
+    .main p {
+      padding-left: 10vw;
+      padding-right: 10vw;
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 4vw;
+      color: rgba(60, 60, 60, 0.56)
+    }
+  
+    .main h1 {
+      padding-left: 10vw;
+      padding-right: 10vw;
+      font-size: 6vw;
+      color: #A7BFFF;
+      font-weight: 700;
+      font-style: normal;
+      font-family: 'Jost';
+    }
+} */

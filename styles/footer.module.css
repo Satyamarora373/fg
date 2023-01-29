@@ -1,0 +1,81 @@
+ 
+.main{
+  margin-top: 5vw;
+  background-color: black;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.footerblue div div { 
+  font-size: 2vw;
+}
+.div{
+  background-color: #F2F8FF;
+}
+.icons{
+  flex: 5%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: 2vw;
+}
+.acps {
+  flex: 10%;
+
+}
+.acps p{
+  font-size: 1.3vw;
+}
+.email div{
+  margin-left: 12vw;
+  margin-right: 12vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  background-color: #001870;
+  text-align: center;
+  /* color: #FFFFFF; */
+  font-size: 1.5vw;
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+border-radius: 2vw;
+}
+.email div form p{
+  color: #FFFFFF;
+  font-size: 2vw;
+}
+.email div form span input{
+  background-color: white;
+  color: #828CA1;
+  font-size: 1.5vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+padding-left: 3vw;
+border-radius: 1vw;
+margin-left: 2vw;
+margin-right: 2vw;
+}
+.email div form span button{
+  background-color: #E33939;
+  color: #FFFFFF;
+  font-size: 1.5vw;
+  border-radius: 0.5vw;
+}
+.email div form span {
+  padding-left: 0vw;
+}
+.flexContaine {
+  display: flex;
+}
+
+.flexchild {
+  flex: 2;
+  /* border: 2px solid yellow; */
+  height: 30vw;
+  /* padding-left: 2vw; */
+}  
+
+.flexchild:firstchild {
+  margin-right: 20px;
+}

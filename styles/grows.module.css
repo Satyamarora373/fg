@@ -1,0 +1,118 @@
+.main{
+  background-color:  #FFFFFF;
+  /* font-family: "Roboto" !important; */
+}
+.main div div{
+  flex: 40;
+}
+.main div div{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.main div div h2 {
+  text-align: center;
+  font-family: 'Jost' !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
+  line-height: 110.5%;
+  /* or 80px */
+  margin-top: 7.2vh;
+  color: #000000;
+}
+
+/* .main div div p {
+  text-align: center;
+  height: auto;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-size: 1.8vw;
+  font-family: 'Roboto' !important;
+  font-style: normal;
+  font-weight: 400;
+  color: #666666;
+} */
+.text p{
+  font-size: 1.5vw;
+  font-family: 'Roboto' !important;
+  text-align: center;
+  height: auto;
+  /* padding-left: 3vw; */
+  padding-right: 1vw;
+  /* font-size: 1.8vw; */
+  font-style: normal;
+  font-weight: 400;
+  color: #666666;
+}
+.main div div button{
+  margin-left: 10vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  height: 5vw;
+  /* padding-bottom: 2vw; */
+  text-align: center;
+  background-color: #0057FF;
+}
+.main div div button p{
+  color: #FFFFFF;
+  font-size: 1.5vw;
+}
+.main div div button:hover {
+  background-color: gray;
+  font-size: 1.5vw;
+}
+/* @media only screen and (max-width: 768px) {
+
+    .main .images{
+      flex: 35;
+    }
+    .main .text{
+      flex: 65;
+    }
+    .main div div h2 {
+      text-align: center;
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 5vw;
+      line-height: 124.5%;
+      
+  
+      color: #000000;
+    }
+  
+    .main div div p {
+      text-align: center;
+      font-size: 3vw;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      line-height: 161.5%;
+  
+      color: #666666;
+    }
+        .main div div button {
+          margin-left: 10vw;
+          padding-left: 10vw;
+          padding-right: 10vw;
+          height: 7vw;
+          text-align: center;
+          background-color: #0057FF;
+        }
+    
+        .main div div button p {
+          color: #FFFFFF;
+          font-size: 2vw;
+          font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+          font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+        }
+    
+        .main div div button:hover {
+          background-color: gray;
+          font-size: 1.5vw;
+        }
+} */

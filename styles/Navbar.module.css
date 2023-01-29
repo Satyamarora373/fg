@@ -1,0 +1,160 @@
+.main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #FFFFFF;
+  background-image: url("../assets/navbar rectangle.png");
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  justify-content: left;
+}
+.nav {
+  background-image: url("../assets/navbar rectangle.png");
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.logo{
+  flex: 10%;
+}
+.links{
+  text-align: left;
+  flex: 10%;
+  font-size: 1.5vw;
+  padding-left: 0vw;
+  padding-right: 0vw;
+  padding-top: 1.5vw;
+}
+.entry{
+  flex: 20;
+  margin-top: 2vw;
+  margin-right: 0;
+  margin-left: 20vw;
+  font-size: 1.5vw;
+}
+.entry input{
+  font-size: 1.5vw;
+}
+.btns1{
+  justify-self: right;
+  text-align: center;
+  flex: 20%;
+  margin-left: 1vw;
+  margin-right: 2vw;
+  font-size: 2vw;
+  padding-top: 0vw; 
+  padding-left: 2vw;
+  /* height: 5rem; */
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  max-width: 10vw;
+  font-size: 1.5vw;
+}
+.btns1 p{
+  color: #000000;
+  margin-top: 0.4vw;
+  margin-bottom: 0.4vw;
+  padding-left: 0vw;
+  padding-right: 0.5vw;
+}
+.btns1:hover{
+  color: silver;
+}
+.btns2{
+  justify-self: right;
+  text-align: center;
+  flex: 20%;
+  margin-left: 1vw;
+  margin-right: 2vw;
+  font-size: 2vw;
+  padding-top: 0vw; 
+  padding-left: 2vw;
+  /* height: 5rem; */
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 2px;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  max-width: 10vw;
+  font-size: 1.5vw;
+}
+.btns2 p{
+  color: #FFFFFF;
+  margin-top: 0.4vw;
+  margin-bottom: 0.4vw;
+  padding-left: 0vw;
+  padding-right: 0.5vw;
+}
+.btns2 p:hover{
+  color: silver;
+}
+.btns2:hover{
+  background-color: bisque;
+}
+.btns1 p:hover{
+  color: silver;
+}
+.btns1:hover{
+  background-color: bisque;
+}
+.entry input{
+  font-size: 1.5vw;
+  border-radius: 1vw;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.links:hover{
+  color: silver;
+  /* background-color: silver; */
+}
+/* 
+.main div {
+  justify-content: space-around;
+  width: 9.496rem;
+  height: 2.576rem;
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6vw;
+  line-height: 2.5rem;
+}
+.main div:hover {
+  color: rgb(168, 168, 168);
+}
+.main input{
+  justify-content: right;
+  width: 15rem;
+  color: #000000;
+  font-size: 1rem;
+height: 2.5rem;
+margin-top: 1.2rem;
+background: #FFFFFF;
+box-shadow: inset 0rem 0rem 0.438rem 0.063rem #8799DB;
+border-radius: 2.375rem;
+}
+.main div button{ 
+  float: right;
+width: 8rem;
+height: 3rem;
+font-style: #000000;
+background: #FFFFFF;
+border: 2px solid #000000;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+}
+.main div button h5{
+  text-align: center;
+  color: #000000;
+  font-size: medium;
+  margin-top: 1rem;
+}
+.main div button span{
+  float: right;
+  color: #000000;
+} */
