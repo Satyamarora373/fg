@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 import Image from "next/image";
 import React, { useState } from "react";
 import Logo from "./Logo";
@@ -7,9 +6,8 @@ import NavItem from "./NavItem";
 import fg_image from "../assets/logo.png"
 import Head from "next/head";
 const MENU_LIST = [
-  { text: "Home", href: "/" },
-  { text: "About Us", href: "/about" },
-  { text: "Career", href: "/career" },
+  { text: "More", href: "/" },
+  { text: "Our Products", href: "/about" },
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
@@ -29,14 +27,13 @@ const Navbar = () => {
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
         >
-          <div>
-            <p>jfakfk</p>
-          </div>
+          <div></div>
+          <div></div>
           <div></div>
           <div></div>
         </div>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
-          {MENU_LIST.map((menu, idx) => (
+        {MENU_LIST.map((menu, idx) => (
             <div
               onClick={() => {
                 setActiveIdx(idx);
@@ -44,9 +41,30 @@ const Navbar = () => {
               }}
               key={menu.text}
             >
+              
               <NavItem active={activeIdx === idx} {...menu} />
             </div>
           ))}
+        <input
+          type="text"
+          placeholder="Search FG..."
+          style={{height:"2rem"}}
+        />
+        <button type="submit" style={{width:"5rem",height:"2rem"}} >Login↗</button>
+         <button type="submit" style={{width:"5rem",height:"2rem",backgroundColor:"#0057FF"}} >Sign Up↗</button>
+
+          {/* {MENU_LIST.map((menu, idx) => (
+            <div
+              onClick={() => {
+                setActiveIdx(idx);
+                setNavActive(false);
+              }}
+              key={menu.text}
+            >
+              
+              <NavItem active={activeIdx === idx} {...menu} />
+            </div>
+          ))} */}
         </div>
       </nav>
     </header>
