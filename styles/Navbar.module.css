@@ -3,6 +3,7 @@
   top: 0;
   left: 0;
   color: #FFFFFF;
+  background-color: black;
   background-image: url("../assets/navbar rectangle.png");
   width: 100vw;
   height: 5rem;
@@ -11,6 +12,7 @@
 }
 .nav {
   background-image: url("../assets/navbar rectangle.png");
+  background-color: #000000;
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
@@ -45,7 +47,6 @@
   font-size: 2vw;
   padding-top: 0vw; 
   padding-left: 2vw;
-  /* height: 5rem; */
   color: #000000;
   background-color: #FFFFFF;
   border-radius: 2px;
@@ -73,7 +74,6 @@
   font-size: 2vw;
   padding-top: 0vw; 
   padding-left: 2vw;
-  /* height: 5rem; */
   background-color: #000000;
   color: #FFFFFF;
   border-radius: 2px;
@@ -109,52 +109,4 @@
 }
 .links:hover{
   color: silver;
-  /* background-color: silver; */
 }
-/* 
-.main div {
-  justify-content: space-around;
-  width: 9.496rem;
-  height: 2.576rem;
-  margin-top: 1.5rem;
-  padding-left: 1rem;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.6vw;
-  line-height: 2.5rem;
-}
-.main div:hover {
-  color: rgb(168, 168, 168);
-}
-.main input{
-  justify-content: right;
-  width: 15rem;
-  color: #000000;
-  font-size: 1rem;
-height: 2.5rem;
-margin-top: 1.2rem;
-background: #FFFFFF;
-box-shadow: inset 0rem 0rem 0.438rem 0.063rem #8799DB;
-border-radius: 2.375rem;
-}
-.main div button{ 
-  float: right;
-width: 8rem;
-height: 3rem;
-font-style: #000000;
-background: #FFFFFF;
-border: 2px solid #000000;
-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-
-}
-.main div button h5{
-  text-align: center;
-  color: #000000;
-  font-size: medium;
-  margin-top: 1rem;
-}
-.main div button span{
-  float: right;
-  color: #000000;
-} */
