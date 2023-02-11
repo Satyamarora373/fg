@@ -31,7 +31,6 @@ export const Grows = () => {
             complete business analysis.
           </p>
           <br/>
-          <br/>
           <button>
             <p>Get Started</p>
           </button>
