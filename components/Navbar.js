@@ -5,6 +5,7 @@ import Logo from "./Logo";
 import NavItem from "./NavItem";
 import fg_image from "../assets/logo.png"
 import Head from "next/head";
+import SearchBar from "./searchBar";
 const MENU_LIST = [
   { text: "More", href: "/" },
   { text: "Our Products", href: "/about" },
@@ -45,26 +46,11 @@ const Navbar = () => {
               <NavItem active={activeIdx === idx} {...menu} />
             </div>
           ))}
-        <input
-          type="text"
-          placeholder="Search FG..."
-          style={{height:"2rem"}}
-        />
+        <SearchBar />
         <button type="submit" style={{width:"5rem",height:"2rem"}} >Login↗</button>
          <button type="submit" style={{width:"5rem",height:"2rem",backgroundColor:"#0057FF"}} >Sign Up↗</button>
 
-          {/* {MENU_LIST.map((menu, idx) => (
-            <div
-              onClick={() => {
-                setActiveIdx(idx);
-                setNavActive(false);
-              }}
-              key={menu.text}
-            >
-              
-              <NavItem active={activeIdx === idx} {...menu} />
-            </div>
-          ))} */}
+          
         </div>
       </nav>
     </header>
